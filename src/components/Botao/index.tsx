@@ -1,10 +1,10 @@
 import React from "react";
-import "./style.scss";
+import style from "./style.module.scss";
 
 class Botao extends React.Component {
   render() {
     return (
-      <button className="botao" onClick={() => alert("Botão clicado!")}>
+      <button className={style.botao} onClick={() => alert("Botão clicado!")}>
         {/* {this.props.children} */}
         Salvar
       </button>
