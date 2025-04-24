@@ -2,20 +2,24 @@
   background-color: #5d677c;
   box-shadow: 2px 2px 4px #2b2b2b inset;
   height: 3.6rem;
+  line-height: 3.8rem;
   width: 3rem;
-  padding: 8px 4px;
+  padding: 10px 5px;
   border-radius: 10px;
 
   @media screen and (min-width: 1280px) {
     height: 10.8rem;
+    line-height: 11rem;
     width: 9rem;
   }
 }
 
 .relogioDivisao {
   height: 4.2rem;
+  line-height: 3.8rem;
 
   @media screen and (min-width: 1280px) {
-    height: 12.6rem;
+    height: 12rem;
+    line-height: 10rem;
   }
 }
