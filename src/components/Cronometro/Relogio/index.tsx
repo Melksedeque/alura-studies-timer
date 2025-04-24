@@ -1,3 +1,5 @@
+import style from "./Relogio.module.scss";
+
 export default function Relogio() {
   return (
     <>
