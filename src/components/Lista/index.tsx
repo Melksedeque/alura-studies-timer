@@ -12,7 +12,10 @@ function Lista() {
     <aside className={style.listaTarefas}>
       <h2
         onClick={() => {
-          setTarefas([...tarefas, { tarefa: "Angular", tempo: "04:00:00" }]);
+          setTarefas([
+            ...tarefas,
+            { tarefa: "Estudar estado", tempo: "05:00:00" },
+          ]);
         }}
       >
         Estudos do dia
