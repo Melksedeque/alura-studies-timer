@@ -15,7 +15,7 @@ class Formulario extends React.Component<{
     e.preventDefault();
     this.props.setTarefas((tarefasAntigas) => [
       ...tarefasAntigas,
-      { ...this.state },
+      { ...this.state, selecionado: false, completado: false },
     ]);
     this.setState({
       tarefa: "",
