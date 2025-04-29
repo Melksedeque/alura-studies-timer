@@ -7,7 +7,7 @@ import { ITarefa } from "../types/tarefa";
 
 function App() {
   const [tarefas, setTarefas] = useState<ITarefa[] | []>([]);
-  const [selecionado, setSelecionado] = useState<ITarefa | null>(null);
+  const [selecionado, setSelecionado] = useState<ITarefa | undefined>(undefined);
 
   function selecionaTarefa(tarefaSelecionada: ITarefa) {
     setSelecionado(tarefaSelecionada)
