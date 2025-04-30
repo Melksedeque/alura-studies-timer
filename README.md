@@ -6,7 +6,6 @@
 
 - [Descrição](#descrição)
   - [Principais recursos incluem](#principais-recursos-incluem)
-  - [Proximos passos de desenvolvimento](#proximos-passos-de-desenvolvimento)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Estrutura de Pastas](#estrutura-de-pastas)
   - [Arquivos Principais](#arquivos-principais)
@@ -36,17 +35,9 @@ Este projeto foi desenvolvido como parte do curso da Alura de React com TypeScri
 - Design responsivo para vários tamanhos de tela
 - Interface intuitiva com cards de tarefas
 
-### Proximos passos de desenvolvimento
-
-- Implementar persistência de dados com localStorage ou backend
-- Adicionar categorias para as tarefas de estudo
-- Criar estatísticas de tempo estudado
-- Implementar notificações sonoras ao finalizar o tempo
-- Adicionar modo escuro/claro
-
 ## Tecnologias Utilizadas
 
-- **React.JS:** Biblioteca JavaScript para a construção de interfaces de usuário
+- **React:** Biblioteca JavaScript para a construção de interfaces de usuário
 - **TypeScript:** Superset de JavaScript que adiciona tipagem estática
 - **SCSS/SASS:** Pré-processador CSS para estilização avançada
 - **CSS Modules:** Técnica para escopo local de estilos CSS
@@ -59,8 +50,6 @@ Este projeto foi desenvolvido como parte do curso da Alura de React com TypeScri
 
 ```
 alura-studies-timer/
-├── public/
-│   └── vite.svg
 ├── screenshot/
 │   └── tela-principal.png
 ├── src/
